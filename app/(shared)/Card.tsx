@@ -30,7 +30,7 @@ export const Card = ({
         href={`${process.env.NEXT_PUBLIC_URL}/post/${post?.id}`}
       >
         <div className={`relative w-auto mb-3 ${imageHeight}`}>
-          {/* <Image
+          <Image
             fill
             alt="tech"
             placeholder="blur"
@@ -40,7 +40,7 @@ export const Card = ({
                   (max-width: 1060px) 50vw,
                   33vw"
             style={{ objectFit: "cover" }}
-          /> */}
+          />
         </div>
       </Link>
       <div className="basis-full">
